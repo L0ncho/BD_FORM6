@@ -5,7 +5,7 @@ DESC: PROCEDIMIENTO AUXILIAR ENCARGADO DE INSERTAR DATOS EN LA TABLA
         'GASTO_COMUN_PAGO_CERO'
 OBJ: MODULARIZAR LA INSERCION DE DATOS PARA MANTENER EL CODIGO LIMPIO
 ===========================================================================*/
-
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasdasdasdasdasdasd
 CREATE OR REPLACE PROCEDURE PRC_LLENA_REPORTE_MOROSOS (
     p_anno_mes      IN NUMBER,
     p_id_edif       IN NUMBER,
@@ -271,3 +271,4 @@ FROM GASTO_COMUN
 WHERE ANNO_MES_PCGC = 202605  -- FILTRA SOLO EL MES ACTUAL (Mayo)
   AND MULTA_GC > 0            -- FILTRAMOS SOLO LOS QUE TENGAN MULTAS(Pago Cero)
 ORDER BY ID_EDIF, NRO_DEPTO;
+
